@@ -15,7 +15,7 @@ module.exports = (robot) ->
     res.send "> GitHub is great, and Training Day is greater!!"
 
   robot.respond /tgallant/gim, (res) ->
-    res.send " > That person is awesome"
+    res.send " > That person is pretty cool"
 
   robot.respond /fruit/gim, (res) ->
     res.send " > My favorites are apples and grapes."
