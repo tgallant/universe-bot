@@ -34,4 +34,4 @@ module.exports = (robot) ->
     url = "https://api.forismatic.com/api/1.0/?method=getQuote&format=json&key=#{ random }&lang=en"
     
     request url, { json: true }, (err, req, quote) ->
-      res.send "#{ quote.quoteText } --   #{ quote.quoteAuthor }"
+      res.send "#{ quote.quoteText }  --  #{ quote.quoteAuthor }"
